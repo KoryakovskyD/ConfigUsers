@@ -1,0 +1,13 @@
+### NIS 315
+irinatcp:$6$Gv5JdLi02J/h$b073Uv2vpZGD8gepjYpSFP.QqtE0O8mCwULVqbMHwsEkN8Cy9PQDWp8Av413EM90511BYlz36yV9i/29ozIIO/:nis315:31500:Цыпленкова И.Г.
+topper:$6$Iu1cuekY8$rekL1lCbhFa4jC8Kl3Kh4aPbGLNPQ7MfFSMEHcFKk3aoqizkd.9WdttmTvbW4U9dU9I44R0PlMDnkhTRlgnsG1:nis315:31501:Носков С.Ю.
+monk:$6$YzWWY/6WdjgK2X$ZZDv/MungrG7Qt0FezTQuuvTwkH8GQfT3ABv3gteaCqdLutBmnAN80cBfyR779FaH722tFJqkmtruAmW6Nc9s.:nis315:31502:Сухарников Г.В.
+nat:$6$mLGttWsGn$Z4TQoO4iuBMckemg2H2zx0nRIxuTmL0OymGQLOWBAMvURhscPAf2U1VHDUMrlPzgC3L.pycbIYkkAGUKel7gy0:nis315:31503:Лебедева Н.Я.
+olgat:$6$KmoDsFCK2K.T5$FvGsfBehzS2jbs251lzYD8qX9j/71PhP6fUBnQozYo5Fch3tmV5Zhz3nFrZR4XEbpBkge43pndyxHORhEAF1f1:nis315:31507:Туркунова О.Я.
+ilina:$6$tkjal/0L$nqDebj5B0vfJR1P2KV2wbExXYlmygZLirL.Lu8w.FieDV0TeQ0faXvWY6o/iY.LbX0Kve4F/fEgbwbN4AtRvQ0:nis315:31512:Ильина Л.Л.
+malk:$6$zad6F/VbmsV/8u$IeoyejLRnOVtxOo/SqVOaz0N0uubYgFHcpynYVl7DPM85G48yWjOlXH.e2s16h3vMzKzpKkhnJCij1hiDtVOt0:nis315:31525:Михайлюк А.А.
+kor:$6$ZdOlZ/v9$b3MRZ7Pm.8gWl18UMJlQTnhv/VGfk4OjogYkW2SbZiCRM1z.eapyIKbTjCN5CqQsNdyudyrL0/14Q4daAFs341:nis315:31524:Коряковский Д.О.
+tanya-k:$6$Ooj6Y/yuqo$PurcFeIf/8LI44eFLrW81ZCYMWeRFC2.FP0QYqA1jSuJtBnftlBJ6qlzlXURWNmu3Q8sKDfXR/2IQVM7aM/wN.:nis315:11215:Кириакова
+andart:$6$cuuDAUvORK/T60$zxp7DC8btvkMtBGDPHD7AcNmc8Te0wR/KlKfleDyIah2pNsZ8DsWXQ6A3hyXcd4KIYsyPkdg5WqL7oiAYYYbu.:nis315:31532:Артемьев А.С.
+megz:$6$R9gyL/LeDy4c5q$dQ2VJt6JGwm.3wJX94O7sKLhI35gQkHpYX2xm8LQsTHoJEH3TOV4NoyrWP0g54uKtgw1dlgkaQIk5mNTlNhN0.:nis315:31534:Завидов Р.И.
+pesnya:$6$CUM8PdV4x$bVAgrimrzJpYatqNCD6YDIU8g7GSOFhG4tsFtnH1usZge3gKSRJ2LATEM8L099pm3rgMFkdl1G3Gjgo7SepyE1:nis315:31511:Золотухина Анастасия Николаевна

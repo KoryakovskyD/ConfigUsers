@@ -1,0 +1,10 @@
+### ���-34
+kotaa:$6$wvPHZD5VdqLCqH$tXy/IrWzeU67sKx5M3l.jsDUe3WE1LAz8S7sigMO/fpzVzCmKZa2DmEkxv2acn86Mq/wmJIYaVrQWONECQAsp.:nio34:34004:Кот А.А.
+lmolchadskiy:$6$IRtHdhsT2n/$36XMlHFD30IXvOfxOWW8jVqJV5w1NExxzejKqAZaaL1vctiXdQOp02D1cyWOuxG2yhsWjYjgJB0bgdWgY9ffk.:nio34:34403:Молчадский Л.И.
+matrosov:$6$yfO99snD$nmt26sjgpkTNf9/BeWmssGA2FIlbkRbboTj2muuIEoCz8T.WHh5EVwM9xvcrLLp1wCA/.QDZzTolFUvouSEpU/:nio34:34418:Матросов М.А.
+dremukh:$6$WrBD3/zx9G6/v$1FU4xtd3j6NNJNTOlfJ30l2flp9f8QWpA0wnGJwXumn9cD5tCuHrBWGNiYAzXrD7ltZc2vW8B1y112GcCddch.:nio34:34301:Дремух С.М.
+34306:$6$LClbYDrICFfQo$yHPKIO/SV0gilEsPbmJYyF8u7s6hnoJLzPpv0xX4voWqU9M.JJVzKhLgE/PerlaI8OsZSdceTawXeQFCkAAQg/:nio34:34306:Мазуров А.М.
+34329:$6$kdbMiju9ta21$zBh4sxfSH7tDjFTaS5mEzejQycoybFidZZH5vnL2Wh/M3EJBuEiErGa0yazbSAXDo8nuwSZnKE7Lz268iSTTN/:nio34:34329:Шленский И.Н.
+olegusp:$6$bUuaY/tQw$eae.I068uhFEd01I8/mTkOd8.EBu5izt/yFt2t0cUolRVy7oH2/lh1C0TplFcMhrJ5HRHjORXWeYuhaJ/wRCp/:nio34:31599:Успенский О.Ю.
+pavel:$6$zWRuMyXpcs/$H2acrhN9cM99mvd9/.Y4ZeTu.cplZCWuCq7PMUdTiJ1RINkO2B9c64mNXiQyhNethw8YewFGo225uoYHoviSx0:nio34:34426:Васильев П.В.
+

@@ -1,0 +1,49 @@
+#! /bin/bash
+
+sumReturnValue=0
+
+newOwner=$1
+
+
+for i in `find /etc/sudoers.d -name "*"`
+do
+    userName=`basename $i`
+
+    if [ ! -d $i ] && [ "$userName" != "3nio" ] && [ "$userName" != "nis315" ]; then
+        rm -f $i
+        (( sumReturnValue += $? ))
+    fi
+    #изменение пути размещения домашнего каталога бывшего владельца ПК
+    perl -i -pe "s/\/home\/$userName/\/home\/users\/$userName/;" /etc/passwd
+    (( sumReturnValue += $? ))
+    #перемещение домашнего каталога бывшего владельца ПК в /home/users
+    if [ -d /home/$userName ]; then
+        mv -f /home/$userName /home/users/
+        (( sumReturnValue += $? ))
+        chmod 755 /home/users/$userName
+        (( sumReturnValue += $? ))
+        chown $userName:3nio /home/users/$userName
+        (( sumReturnValue += $? ))
+    fi
+done
+
+echo -e "$newOwner    ALL=(ALL)    NOPASSWD: ALL" > /etc/sudoers.d/$newOwner
+chmod 440 /etc/sudoers.d/$newOwner
+(( sumReturnValue += $? ))
+chown root:root /etc/sudoers.d/$newOwner
+(( sumReturnValue += $? ))
+
+#изменение пути размещения домашнего каталога нового владельца ПК
+perl -i -pe "s/\/home\/users\/$newOwner/\/home\/$newOwner/;" /etc/passwd
+(( sumReturnValue += $? ))
+
+#перемещение домашнего каталога нового владельца ПК на уровень выше (если он есть)
+if [ -d /home/users/$newOwner ]; then
+    mv -f /home/users/$newOwner /home/
+    (( sumReturnValue += $? ))
+    chmod 755 /home/$newOwner
+    (( sumReturnValue += $? ))
+    chown $newOwner:3nio /home/$newOwner
+    (( sumReturnValue += $? ))
+fi
+
