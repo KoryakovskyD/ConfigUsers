@@ -87,13 +87,16 @@ public class ChangePasswd extends JFrame {
 
                 command="echo \"" + login + ":" + passwd1 + "\" | sudo chpasswd";
                 try {
-                    Runtime.getRuntime().exec(new String[]{"/bin/bash", "-c", command});
-                } catch (IOException e1) {
+                    Process threadBash = Runtime.getRuntime().exec(new String[]{"/bin/bash", "-c", command});
+                    threadBash.waitFor();
+                } catch (InterruptedException e1) {
                     e1.printStackTrace();
+                } catch (IOException e2) {
+                    e2.printStackTrace();
                 }
 
 
-                ConfigUsers.sleep();
+
 
 
                 // Найдем новый хэш пароля

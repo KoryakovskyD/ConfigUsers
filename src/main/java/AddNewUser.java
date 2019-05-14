@@ -96,25 +96,29 @@ public class AddNewUser extends JFrame {
 			// Добавление пользователя в систему
 			command1="sudo useradd -u " + inputUserID.getText() + " -g 1005 -b /home/users -c \"" + inputFIO.getText() + "\" -M " + inputLogin.getText();
 			try {
-				Runtime.getRuntime().exec(new String[]{"/bin/bash", "-c", command1});
+				Process threadBash = Runtime.getRuntime().exec(new String[]{"/bin/bash", "-c", command1});
+				threadBash.waitFor();
 			} catch (IOException e1) {
 				e1.printStackTrace();
+			} catch (InterruptedException e2) {
+				e2.printStackTrace();
 			}
 
 
-			ConfigUsers.sleep();
 
 
 			// Меняем пароль
 			command2="sudo echo " + inputLogin.getText() + ":" + inputPasswd.getText() + " | sudo chpasswd";
 			try {
-				Runtime.getRuntime().exec(new String[]{"/bin/bash", "-c", command2});
+				Process threadBash = Runtime.getRuntime().exec(new String[]{"/bin/bash", "-c", command2});
+				threadBash.waitFor();
 			} catch (IOException e2) {
 				e2.printStackTrace();
+			} catch (InterruptedException e1) {
+				e1.printStackTrace();
 			}
 
 
-			ConfigUsers.sleep();
 
 
 			// Если пользователь из группы 315, то добавляем его в файл group

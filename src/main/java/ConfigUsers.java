@@ -12,16 +12,6 @@ public class ConfigUsers {
     public static ArrayList listReturn = new ArrayList();
 
 
-    // Пауза для отработки баш скрипта
-    public static void sleep () {
-        try {
-            Thread.sleep(500);
-        } catch(InterruptedException ex) {
-            Thread.currentThread().interrupt();
-        }
-    }
-
-
     // Поиск в файле
     public static ArrayList ReadFile (String filename, String text) {
 
