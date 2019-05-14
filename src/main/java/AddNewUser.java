@@ -1,11 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 import java.io.*;
-import java.io.BufferedReader;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-import java.lang.Thread;
 import java.util.List;
 
 
@@ -62,6 +60,7 @@ public class AddNewUser extends JFrame {
 
         container.add(button2);
 		container.add(button);
+
 
 		// Действия при нажатии кнопки далее
         button.addActionListener(e -> {

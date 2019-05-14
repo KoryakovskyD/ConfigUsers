@@ -155,6 +155,7 @@ public class ChangePasswd extends JFrame {
                         writer.flush();
                     }
 
+
                     while ((strLine = br2.readLine()) != null) {
 
                         if (strLine.contains(login) == false) {
@@ -174,6 +175,7 @@ public class ChangePasswd extends JFrame {
                 }  catch (IOException e3) {
                     e3.printStackTrace();
                 }
+
 
                 // добавление пользователя в файл конфигурации на сервере
                 command2=login + ":" + hashNew + ":" + group + ":" + userID + ":" + userFIO + "\n";

@@ -8,13 +8,14 @@ public class ConfigUsers {
 
     // Путь к файлам с данными пользователей
     public static String fileAcc = "../../Accounts";
-    public static String strLine, hash, group, userID, userFIO;
-    public static ArrayList listReturn = new ArrayList();
-
 
 
     // Поиск в файле
     public static ArrayList ReadFile (String filename, String text) {
+
+        String strLine;
+        ArrayList listReturn = new ArrayList();
+
 
         // Поиск в файле $filename текста $text
         try {
