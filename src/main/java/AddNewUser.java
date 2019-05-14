@@ -120,7 +120,6 @@ public class AddNewUser extends JFrame {
 
 
 
-
 			// Если пользователь из группы 315, то добавляем его в файл group
 			if ( inputGroup.equals("nis315")) {
 				command = "sudo usermod -a -G nis315 " + inputLogin.getText();

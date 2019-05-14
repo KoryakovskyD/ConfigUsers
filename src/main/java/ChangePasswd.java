@@ -163,6 +163,7 @@ public class ChangePasswd extends JFrame {
                         }
                     }
 
+
                     File delfile = new File(groupAndFile);
                     delfile.delete();
                     File file = new File(groupAndFile + ".tmp");
